@@ -1,0 +1,50 @@
+###
+POST http://127.0.0.1:3000/login
+Content-Type: application/json
+
+{
+    "username":"teff@gmail.com",
+    "password": "1234"
+}
+
+
+###
+GET http://127.0.0.1:3000/users
+
+
+###
+GET http://127.0.0.1:3000/users/632cc68c2f663b0c79e88a5d
+
+###
+POST http://127.0.0.1:3000/sinup
+Content-Type: application/json
+
+{
+  "fullname": "Mekdes Teffera",
+  "username": "mekditibe@gmail.com",
+  "password": "1234",
+  "age": 25,
+  "gender": "female",
+  "address": {
+    "city": "Fairfield",
+     "state": "Iowa",
+     "zipcode": "52557",
+     "street": "1000 N 4th Stree"
+  }
+}
+
+###
+DELETE http://127.0.0.1:3000/users/632cc5ff2f663b0c79e88a5c
+
+###
+PUT http://127.0.0.1:3000/users
+Content-Type: application/json
+{
+
+}
+
+###
+GET http://127.0.0.1:3000/users/632cc68c2f663b0c79e88a5d
+
+"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzJkMDFkOGY4NjU3NTAwNzFhODc1MWYiLCJmdWxsbmFtZSI6IlRlYmVidSBUZWZmZXJhIiwidXNlcm5hbWUiOiJ0ZWZmQGdtYWlsLmNvbSIsInBhc3N3b3JkIjpudWxsLCJhZ2UiOjMwLCJnZW5kZXIiOiJtYWxlIiwiYWRkcmVzcyI6eyJjaXR5IjoiRmFpcmZpZWxkIiwic3RhdGUiOiJJb3dhIiwiemlwY29kZSI6IjUyNTU3Iiwic3RyZWV0IjoiMTAwMCBOIDR0aCBTdHJlZSJ9LCJfX3YiOjAsImlhdCI6MTY2Mzk4MjU4OX0.zN09TRS3ACkceMW03Jyv0fA-gZ98yix7RwYGPP3G_xk"
+

@@ -1,0 +1,57 @@
+
+div,mat-drawer-container{
+    /* background: url('https://coverlink.com/wp-content/uploads/2020/01/shutterstock_162019022-scaled.jpg') no-repeat center; */
+    background: url('https://www.studenthealth.cuimc.columbia.edu/sites/default/files/styles/cola_media_1280_16_9/public/media/images/2020-11/insurance.jpg?itok=PCjoS6H_');
+    background-size: cover;
+    color: #ffffff;
+    height: 100%;
+}
+
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    }
+
+mat-drawer{
+  width: 200px;
+  /* background: #0f172a; //#ffffff;*/
+  background: url('https://www.studenthealth.cuimc.columbia.edu/sites/default/files/styles/cola_media_1280_16_9/public/media/images/2020-11/insurance.jpg?itok=PCjoS6H_');
+  /* background: url('https://coverlink.com/wp-content/uploads/2020/01/shutterstock_162019022-scaled.jpg') no-repeat center; */
+  background-size: cover;
+  color: black;
+  height: 100%;
+}
+
+mat-drawer-container{
+  height: 100%;
+}
+
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+
+.success{
+  padding: 20px;
+  background-color:green;
+  color: white;
+}
